@@ -238,7 +238,7 @@ from PIL import Image
 title_container = st.container()
 col1, col2 = st.columns([1,7])
 #col2 = st.container()
-img = Image.open(r"D:\ML Streamlit\venv\—Pngtree_ real heart_5953443.png")
+img = Image.open(r"—Pngtree_ real heart_5953443.png")
 with title_container:
     with col1:
         st.image(img, width = 120)
