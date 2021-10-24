@@ -314,7 +314,7 @@ st.subheader("About App")
 st.info("This web app helps you to find out whether you are at a risk of developing a heart disease.")
 st.sidebar.info("Enter the required fields and click on the 'Predict' button to check whether you have a healthy heart")
 
-st.write("If you have some problems to complete the required fields,", "[Here](...)")
+st.write("If you have some problems to complete the required fields,", "[Here](https://share.streamlit.io/mrnightcrypt/heart-disease-assistance/main/assistance.py)")
 # Creating User Interface to enter data required to make prediction
 
 age = st.sidebar.selectbox("Age",range(1,121,1))
