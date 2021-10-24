@@ -34,7 +34,7 @@ st.set_page_config(
 
 #Machine Learning
 
-heart_disease = pd.read_csv(r"D:\ML Streamlit\venv\heart.csv")
+heart_disease = pd.read_csv(r"heart.csv")
 #heart_disease.head()
 
 #heart_disease.info()
