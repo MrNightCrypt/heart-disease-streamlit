@@ -241,7 +241,7 @@ col1, col2 = st.columns([1,7])
 img = Image.open(r"—Pngtree_ real heart_5953443.png")
 with title_container:
     with col1:
-        st.image(img, width = 120)
+        st.image(img, width = 100)
     with col2:
         st.markdown(html_temp, unsafe_allow_html = True)
     
