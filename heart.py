@@ -246,7 +246,7 @@ with title_container:
         st.markdown(html_temp, unsafe_allow_html = True)
     
 st.write('''
-##### by *Hein Htet Hlaing* 
+##### by *HHH* 
 ''')
 
 
