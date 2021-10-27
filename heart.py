@@ -219,7 +219,7 @@ ax=sns.heatmap(confusion_matrix(Y_test,Rf_Y_pred),annot=True,cbar=True);
 ######################################################################
 
 
-pkl.dump(heart_disease_rf_clf,open("final_model.p","wb"))
+pkl.dump(SVC_clf,open("final_model.p","wb"))
  
 #Load the saved model
 model=pkl.load(open("final_model.p","rb"))
