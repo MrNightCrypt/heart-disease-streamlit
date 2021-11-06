@@ -396,7 +396,7 @@ st.write('Number of Major Vessels Colored by Flourosopy : ', ca)
 st.write('Thalium Stress Result : ', thal)
 
 if st.button("Predict"):    
-  if pred[0] == 0:
+  if pred[0] == 1:
     st.error('Warning! You have high risk of getting a heart attack!')
   else:
     st.success('You have lower risk of getting a heart disease!')
